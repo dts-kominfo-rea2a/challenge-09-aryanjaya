@@ -1,0 +1,66 @@
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.content img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 160px;
+}
+
+img.rounded {
+  border-radius: 50%;
+}
+
+section.content {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  background-color: rgb(187, 247, 208);
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+section.content .left {
+  flex-basis: 30%;
+  align-self: center;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+section.content .right {
+  flex-basis: 70%;
+  text-align: justify;
+}
+
+section.content .right .container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: .75rem;
+}
+
+section.content .right .container .header {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
+section.content .right .container .sub-header {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+section.content .right .container .sub-content {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-style: italic;
+}
